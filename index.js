@@ -85,7 +85,7 @@ cd /tmp/
 var paramsEC2 = {
    ImageId: 'ami-28c90151', // amzn-ami-2011.09.1.x86_64-ebs
    InstanceType: 't1.micro',
-   KeyName: 'AWSKey3',
+   KeyName: 'YourAWSKeyNameHere',
    MinCount: 1,
    MaxCount: 1,
    SecurityGroups: [groupname],
